@@ -1,0 +1,4 @@
+# https://docs.docker.com/engine/reference/commandline/rm/
+# https://docs.docker.com/engine/reference/commandline/ps/#description
+
+ docker rm -f $(docker ps -a -q)

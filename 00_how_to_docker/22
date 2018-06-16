@@ -1,0 +1,3 @@
+# https://medium.com/@Grigorkh/docker-swarm-tutorial-c5d5cf4b4de
+
+docker-machine ssh Aiur "docker swarm join --token $(docker swarm join-token ip Aiur) $(docker-machine ip Char):2377"

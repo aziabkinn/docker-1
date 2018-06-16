@@ -1,0 +1,5 @@
+# http://qaru.site/questions/52040/eval-command-in-bash-and-its-typical-uses
+
+# env | grep -i DOCKER  -  посмотреть 
+
+eval $(docker-machine env Char)

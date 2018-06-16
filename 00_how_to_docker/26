@@ -1,0 +1,4 @@
+# https://docs.docker.com/engine/reference/commandline/service_create/#parent-command
+
+docker service create --replicas 2 --name engineering-bay --network overmind -e OC_USERNAME=aziabkin -e OC_PASSWD=password 42school/engineering-bay
+

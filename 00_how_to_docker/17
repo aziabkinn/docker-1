@@ -1,0 +1,3 @@
+# Show all containers (default shows just running)
+
+docker ps -a 

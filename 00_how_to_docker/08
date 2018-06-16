@@ -1,0 +1,6 @@
+# https://docs.docker.com/engine/reference/run/#example-run-htop-inside-a-container
+
+docker run -it --rm alpine
+
+# exit или kill PID(ps)
+# docker ps -a

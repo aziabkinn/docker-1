@@ -1,0 +1,3 @@
+# https://docs.docker.com/machine/reference/rm/#examples
+
+docker-machine rm Aiur

@@ -1,0 +1,4 @@
+# https://linuxconfig.org/how-to-retrieve-docker-container-s-internal-ip-address
+# -f - Format the output using the given Go template
+
+docker inspect -f '{{ .NetworkSettings.IPAddress }}'  overlord 

@@ -1,0 +1,2 @@
+docker logs spawning-pool -f
+ 
